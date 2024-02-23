@@ -19,5 +19,5 @@ fun main(){
         }
     }
     val teamWithhSmallestDifference = teams.minByOrNull { it.goalDifference() }
-    println(teamWithhSmallestDifference?.name)
+    println("The team with smallest difference was $teamWithhSmallestDifference?.name")
 }
